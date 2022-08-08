@@ -152,10 +152,10 @@ Key:
 | 8/24 | Setting Up Computers | :man_teacher: | |
 | 8/29 | Designing Research and Research Questions | :closed_book: <br/> :man_teacher: | :book: Chapters 1 & 2 |
 | 8/31 | Designing Research and Research Questions | :man_teacher: <br/> :computer: | |
-| 9/5 | Reviewing the Literature | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity |
-| 9/7 | Reviewing the Literature | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity |
-| 9/12 | Identification | - [X] Readings <br/> - [X] Lecture <br/> - [X] Assignment due <br/> - [] Class activity | :book: Chapter 5 |
-| 8/14 | Identification | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity |
+| 9/5 | Reviewing the Literature | :man_teacher: |
+| 9/7 | Reviewing the Literature | :man_teacher: <br/> :computer: |
+| 9/12 | Identification | :closed_book: <br/> :man_teacher: <br/> :date: | :book: Chapter 5 |
+| 8/14 | Identification | :man_teacher: <br/> :computer: |
 | 9/19 | Creating Hypotheses and Identifying Data | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity |
 | 9/21 | Creating Hypotheses and Identifying Data | - [] Readings <br/> - [X] Lecture <br/> - [X] Assignment due <br/> - [X] Class activity |
 | 9/26 | Cleaning Data (Variables) | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity |

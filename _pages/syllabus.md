@@ -79,6 +79,7 @@ NOTE: THROUGHOUT THE SEMESTER, I MAY ADD OR SUBTRACT READINGS AS NEEDED TO ADJUS
 {: .notice--danger}
 
 Table. Grade Scale Used for Calculating Class Grades
+
 | Percent | Grade | Points|
 | :----: | :----: | :----: |
 | 93-100 | A | 4.0 |

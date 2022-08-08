@@ -37,9 +37,9 @@ Zotero - There are a variety of citation organizer software options out there fo
 ### Overview
 The following assignments will form the basis of your grade in this course:
 1. Final Paper (60%)
-  1. Literature Review (20%)
-  2. Proposed Research Design and Analysis (20%)
-  3. Final Write-Up (20%)
+    1. Literature Review (20%)
+    2. Proposed Research Design and Analysis (20%)
+    3. Final Write-Up (20%)
 2. Practice Problems (30%)
 3. Participation and Attendance (10%)
 

@@ -126,7 +126,7 @@ Confidential support and guidance can be found through the Counseling Center (51
 
 Sexual offenses can be reported non-confidentially to the Title IX Coordinator within The Office for Equity and Compliance (518-442-3800, [or online](https://www.albany.edu/equity-compliance/), Building 25, Room 117) and/or the University Police Department (518-442-3131, [or online](http://police.albany.edu/).
 
-**PLEASE NOTE:*** Faculty members are considered “responsible employees” at the University at Albany, meaning that they are required to report all known relevant details about a complaint of sexual violence to the University’s Title IX Coordinator, including names of anyone involved or present, date, time, and location.
+**PLEASE NOTE:** Faculty members are considered “responsible employees” at the University at Albany, meaning that they are required to report all known relevant details about a complaint of sexual violence to the University’s Title IX Coordinator, including names of anyone involved or present, date, time, and location.
 {: .notice--warning}
 
 In case of an emergency, please call 911.

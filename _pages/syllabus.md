@@ -95,7 +95,7 @@ Table. Grade Scale Used for Calculating Class Grades
 | 60-62 | D- | 0.7 |
 | < 60 | F | 0.0 |
 
-**Note:** the percent refers to the percent of available weighted points earned. Each assignment is weighted by the proportion of the final grade made up by the assignment itself, as described above.
+**Note:** the percent refers to the percent of available weighted points earned. Each assignment is weighted by the proportion of the final grade made up by the assignment itself, as described [above](https://stevebholt.github.io/rpad399/syllabus/#assignments).
 {: .notice--info}
 
 ### Academic integrity

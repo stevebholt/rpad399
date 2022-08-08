@@ -136,12 +136,20 @@ A tentative grade given only when the student has nearly completed the course bu
 ## Class Schedule
 ### Overview of Weeks
 
+Key:
+| Symbol | Meaning |
+|:-: | :- |
+| :man_teacher: | Lecture in class |
+| :closed_book: | Readings due before class (listed in readings column) |
+| :memo: | Assignment due |
+| :computer: | Class activity |
+
 | Date | Topic | Contents | Readings |
 | :-----: | :-----: | :-----: | :-----: |
-| 8/22 | Introduction | - [ ] Readings <br/> - [x] Lecture <br/> - [ ] Assignment due <br/> - [ ] Class activity | |
-| 8/24 | Setting Up Computers | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity | |
-| 8/29 | Designing Research and Research Questions | - [X] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity | :book: Chapters 1 & 2 |
-| 8/31 | Designing Research and Research Questions | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity | |
+| 8/22 | Introduction | :man_teacher: | |
+| 8/24 | Setting Up Computers | :man_teacher: | |
+| 8/29 | Designing Research and Research Questions | :closed_book: <br/> :man_teacher: | :book: Chapters 1 & 2 |
+| 8/31 | Designing Research and Research Questions | :man_teacher: <br/> :computer: | |
 | 9/5 | Reviewing the Literature | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity |
 | 9/7 | Reviewing the Literature | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity |
 | 9/12 | Identification | - [X] Readings <br/> - [X] Lecture <br/> - [X] Assignment due <br/> - [] Class activity | :book: Chapter 5 |

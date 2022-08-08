@@ -137,8 +137,9 @@ A tentative grade given only when the student has nearly completed the course bu
 ### Overview of Weeks
 
 Key:
+
 | Symbol | Meaning |
-|:-: | :- |
+|:-: | :--------------------------- |
 | :man_teacher: | Lecture in class |
 | :closed_book: | Readings due before class (listed in readings column) |
 | :date: | Assignment due |

@@ -138,7 +138,7 @@ A tentative grade given only when the student has nearly completed the course bu
 
 | Date | Topic | Contents | Readings |
 | :-----: | :-----: | :-----: | :-----: |
-| 8/22 | Introduction | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity | |
+| 8/22 | Introduction | - [ ] Readings <br/> - [x] Lecture <br/> - [ ] Assignment due <br/> - [ ] Class activity | |
 | 8/24 | Setting Up Computers | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity | |
 | 8/29 | Designing Research and Research Questions | - [X] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [] Class activity | :book: Chapters 1 & 2 |
 | 8/31 | Designing Research and Research Questions | - [] Readings <br/> - [X] Lecture <br/> - [] Assignment due <br/> - [X] Class activity | |

@@ -1,8 +1,7 @@
 ---
-tags: [syllabus]
-title: 'Policy Research: The Art of Creating Convincing Evidence'
-created: '2022-08-08T17:11:39.265Z'
-modified: '2022-08-08T19:01:54.643Z'
+title: "Syllabus"
+permalink: /syllabus/
+toc: true
 ---
 
 # Policy Research: The Art of Creating Convincing Evidence

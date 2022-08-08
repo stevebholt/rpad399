@@ -75,7 +75,7 @@ A big part of learning comes from class discussion and participation in class ac
 * The table below lays out the grading scale that will be used in assigning final course grades.
 * Students with special physical and/or learning needs will be accommodated. Please notify the Disabilities Office and me as soon as possible so that reasonable accommodations can be made.
 
-NOTE: THROUGHOUT THE SEMESTER, I MAY ADD OR SUBTRACT READINGS AS NEEDED TO ADJUST THE COURSE ACCORDING TO YOUR PROGRESS, ENGAGEMENT, AND INTERESTS.
+**NOTE:** Throughout the semester I may add or subtract readings as needed to adjust the course according to your progress, engagement, and interests.
 {: .notice--danger}
 
 Table. Grade Scale Used for Calculating Class Grades

@@ -8,7 +8,7 @@ toc: true
 ## RPAD 399
 * :man_teacher:: Stephen Holt, Ph.D.
 * :calendar:: Mondays and Wednesdays
-* :clock: 3:00 pm to 4:20 pm
+* :clock3: 3:00 pm to 4:20 pm
 * :round_pushpin:: Massry Center for Business, B008
 * :email:: sbholt@albany.edu
 * :school:: Tuesdays and Thursdays from 3:00 pm to 5:00 pm or by appointment; in-person in Milne 314 or online in GatherTown.

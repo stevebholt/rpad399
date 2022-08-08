@@ -141,8 +141,10 @@ Key:
 |:-: | :- |
 | :man_teacher: | Lecture in class |
 | :closed_book: | Readings due before class (listed in readings column) |
-| :memo: | Assignment due |
+| :date: | Assignment due |
 | :computer: | Class activity |
+| :book: | Reading is from required text |
+| :page_facing_up: | Reading is from an article |
 
 | Date | Topic | Contents | Readings |
 | :-----: | :-----: | :-----: | :-----: |

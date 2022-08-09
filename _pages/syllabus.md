@@ -11,7 +11,7 @@ toc: true
 * :clock3:: 3:00 pm to 4:20 pm
 * :round_pushpin:: Massry Center for Business, B008
 * :email:: sbholt@albany.edu
-* :school:: Tuesdays and Thursdays from 3:00 pm to 5:00 pm or by appointment; in-person in Milne 314 or online in GatherTown.
+* :school:: Tuesdays and Thursdays from 3:00 pm to 5:00 pm or by appointment; in-person in Milne 324 or online in GatherTown.
 * :phone:: 518-442-3309
 
 ## Course Description
@@ -123,9 +123,9 @@ The university offers a number of services for students who need assistance with
 ### Title IX and Sexual Violence Prevention
 Title IX of the Education Amendments of 1972 is a federal civil rights law that prohibits discrimination on the basis of sex in federally funded education programs and activities. The SUNY-wide Sexual Violence Prevention and Response Policies prohibit offenses defined as sexual harassment, sexual assault, intimate partner violence (dating or domestic violence), sexual exploitation, and stalking. The  SUNY-wide Sexual Violence Prevention and Response Policies apply to the entire University at Albany community, including students, faculty, and staff of all gender identities.  The University at Albany provides a variety of resources for support and advocacy to assist individuals who have experienced sexual offenses.
 
-Confidential support and guidance can be found through the Counseling Center (518-442-5800, [or online](https://www.albany.edu/counseling_center/)), the University Health Center (518-442-5454, [or online](https://www.albany.edu/health_center/)), and the Interfaith Center (518-489-8573, [or online](https://www.albany.edu/spirituality/onCampus.shtml). Individuals at these locations will not report crimes to law enforcement or university officials without permission, except for in extreme circumstances, such as a health and/or safety emergency. Additionally, the Advocates at the University at Albany’s Advocacy Center for Sexual Violence are available to assist students without sharing information that could identify them (518-442-CARE, [or online](https://www.albany.edu/advocacycenter/).
+Confidential support and guidance can be found through the Counseling Center (518-442-5800, [or online](https://www.albany.edu/counseling_center/)), the University Health Center (518-442-5454, [or online](https://www.albany.edu/health_center/)), and the Interfaith Center (518-489-8573, [or online](https://www.albany.edu/spirituality/onCampus.shtml)). Individuals at these locations will not report crimes to law enforcement or university officials without permission, except for in extreme circumstances, such as a health and/or safety emergency. Additionally, the Advocates at the University at Albany’s Advocacy Center for Sexual Violence are available to assist students without sharing information that could identify them (518-442-CARE, [or online](https://www.albany.edu/advocacycenter/)).
 
-Sexual offenses can be reported non-confidentially to the Title IX Coordinator within The Office for Equity and Compliance (518-442-3800, [or online](https://www.albany.edu/equity-compliance/), Building 25, Room 117) and/or the University Police Department (518-442-3131, [or online](http://police.albany.edu/).
+Sexual offenses can be reported non-confidentially to the Title IX Coordinator within The Office for Equity and Compliance (518-442-3800, [or online](https://www.albany.edu/equity-compliance/), Building 25, Room 117) and/or the University Police Department (518-442-3131, [or online](http://police.albany.edu/)).
 
 **PLEASE NOTE:** Faculty members are considered “responsible employees” at the University at Albany, meaning that they are required to report all known relevant details about a complaint of sexual violence to the University’s Title IX Coordinator, including names of anyone involved or present, date, time, and location.
 {: .notice--danger}

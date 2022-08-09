@@ -6,13 +6,13 @@ toc: true
 
 # Policy Research: The Art of Creating Convincing Evidence
 ## RPAD 399
-* :man_teacher:: Stephen Holt, Ph.D.
-* :calendar:: Mondays and Wednesdays
-* :clock3:: 3:00 pm to 4:20 pm
-* :round_pushpin:: Massry Center for Business, B008
-* :email:: sbholt@albany.edu
-* :school:: Tuesdays and Thursdays from 3:00 pm to 5:00 pm or by appointment; in-person in Milne 324 or online in GatherTown.
-* :phone:: 518-442-3309
+:man_teacher:: Stephen Holt, Ph.D. <br/>
+:calendar:: Mondays and Wednesdays <br/>
+:clock3:: 3:00 pm to 4:20 pm <br/>
+:round_pushpin:: Massry Center for Business, B008 <br/>
+:email:: sbholt@albany.edu <br/>
+:school:: Tuesdays and Thursdays from 3:00 pm to 5:00 pm or by appointment; in-person in Milne 324 or online in GatherTown. <br/>
+:phone:: 518-442-3309 <br/>
 
 ## Course Description
 How does child poverty influence health or academic growth? What can we do to reduce child poverty? How can we reduce carbon emissions without disrupting our economy? Do body-worn cameras reduce police involved shootings? Does tuition-free college reduce inequality? Or, perhaps most important of all, how do we go about answering these questions? This course will introduce students to the process of asking good research questions, figuring out what we already know or don’t know about the answer, and identifying the best approach for generating new answers and supporting evidence. In this course, students will develop an original research project using real data and centered on a research question they develop in the beginning of the course. Students will learn to identify and apply a method of analysis appropriate for effectively and persuasively answering their question. By the end of the semester, students will have produced a complete research project and data analysis in a policy area of their choice and will demonstrate basic familiarity with reading, writing, producing, and interpreting quantitative research to inform public policy.

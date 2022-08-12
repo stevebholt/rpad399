@@ -131,6 +131,9 @@ In case of an emergency, please call 911.
 ### Incomplete Grade Policy
 A tentative grade given only when the student has nearly completed the course but due to circumstances beyond the student's control the work is not completed on schedule. The date for the completion of the work is specified by the instructor. The date stipulated will not be later than one month before the end of the session following that in which the Incomplete is received. The grade I is automatically changed to E or U unless work is completed as agreed between the student and the instructor.
 
+### Absence due to religious observance
+Students are excused, without penalty, to be absent because of religious beliefs, and will be provided equivalent opportunities for make-up examinations, study, or work requirements missed because of such absences. Students should notify the instructor of record in a timely manner, and the instructor will work directly with students to accommodate religious observances. Online courses will not schedule any assignment deadlines on religious holidays.
+
 ## Class Schedule
 ### Overview of Weeks
 

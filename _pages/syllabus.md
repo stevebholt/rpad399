@@ -87,7 +87,7 @@ Key:
 | 9/5 | Reviewing the Literature | :man_teacher: |
 | 9/7 | Reviewing the Literature | :man_teacher: <br/> :computer: |
 | 9/12 | Identification | :closed_book: <br/> :man_teacher: <br/> [:date:](#5-page-literature-review) | :book: Chapter 5 |
-| 8/14 | Identification | :man_teacher: <br/> :computer: |
+| 9/14 | Identification | :man_teacher: <br/> :computer: |
 | 9/19 | Creating Hypotheses and Identifying Data | :man_teacher: |
 | 9/21 | Creating Hypotheses and Identifying Data | :man_teacher: <br/> :computer: <br/> [:date:](#identify-data) |
 | 9/26 | Cleaning Data (Variables) | :man_teacher: <br/> :computer: |

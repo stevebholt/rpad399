@@ -3,3 +3,5 @@ main:
     url: /syllabus/
   - title: "About"
     url: /
+  - title: "Exercises"
+    url: /exercises/  

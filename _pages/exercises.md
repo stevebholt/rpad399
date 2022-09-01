@@ -1,6 +1,6 @@
 ---
-title: "Exercises"
-permalink: /exercises/
+title: "Resources"
+permalink: /resources/
 toc: true
 ---
 On this page, you will find links to both in-class and out-of-class exercises we do throughout the semester.

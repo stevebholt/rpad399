@@ -4,4 +4,6 @@ main:
   - title: "About"
     url: /
   - title: "Exercises"
-    url: /exercises/  
+    url: /exercises/
+  - title: "Slides"
+    url: /slides/  

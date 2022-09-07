@@ -10,3 +10,7 @@ On this page, you will find links to both in-class and out-of-class exercises we
 {: .notice--success}
 
 [In-Class Exercise 1](https://stevebholt.github.io/rpad399/in-class-ex-1/){: .btn .btn--info}
+
+# Research Resources
+
+[Data for Research](https://stevebholt.github.io/rpad399/data/){: .btn .btn--info}

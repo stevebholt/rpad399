@@ -84,28 +84,26 @@ Key:
 | 8/24 | Setting Up Computers | :man_teacher: | |
 | 8/29 | Designing Research and Research Questions | :closed_book: <br/> :man_teacher: | :book: Chapters 1 & 2 |
 | 8/31 | Designing Research and Research Questions | :man_teacher: <br/> :computer: | |
-| 9/5 | Reviewing the Literature | :man_teacher: |
-| 9/7 | Reviewing the Literature | :man_teacher: <br/> :computer: |
-| 9/12 | Identification | :closed_book: <br/> :man_teacher: <br/> [:date:](#5-page-literature-review) | :book: Chapter 5 |
-| 9/14 | Identification | :man_teacher: <br/> :computer: |
-| 9/19 | Creating Hypotheses and Identifying Data | :man_teacher: |
-| 9/21 | Creating Hypotheses and Identifying Data | :man_teacher: <br/> :computer: <br/> [:date:](#identify-data) |
-| 9/26 | Cleaning Data (Variables) | :man_teacher: <br/> :computer: |
-| 9/28 | Cleaning Data (Merges and Structure) | :man_teacher: <br/> :computer: |
-| 10/3 | Describing Variables | :closed_book: <br/> :man_teacher: | :book: Chapter 3 | 
-| 10/5 | Describing Variables | :computer: |
-| 10/12 | Describing Relationships | :closed_book: <br/> :man_teacher: | :book: Chapter 4 |
-| 10/17 | Regression | :closed_book: <br/> :man_teacher: | :book: Chapter 13 |
-| 10/19 | Regression | :computer: | 
-| 10/24 | Treatment Effects | :closed_book: <br/> :man_teacher: <br/> [:date:](#summary-statistics) | :book: Chapter 10 |
-| 10/26 | Treatment Effects | :computer: |  |
-| 10/31 | Event Studies | :closed_book: <br/> :man_teacher: | :book: Chapter 17 |
-| 11/2 | Event Studies | :computer: |  |
-| 11/7 | Difference-in-Difference | :closed_book: <br/> :man_teacher: <br/> [:date:](#event-studies) | :book: Chapter 18 |
-| 11/9 | Difference-in-Difference | :computer: |  |
-| 11/14 | Matching | :closed_book: <br/> :man_teacher: <br/> [:date:](#research-model) | :book: Chapter 14 |
-| 11/16 | Matching | :computer: |  |
-| 11/21 | Organizing Results | :man_teacher: |  |
+| 9/12 | Reviewing the Literature | :man_teacher: |
+| 9/14 | Reviewing the Literature | :man_teacher: <br/> :computer: |
+| 9/19 | Identification | :closed_book: <br/> :man_teacher: | :book: Chapter 5 |
+| 9/21 | Identification | :man_teacher: <br/> :computer: |
+| 9/26 | Creating Hypotheses and Identifying Data | :man_teacher: <br/> [:date:](#5-page-literature-review) |
+| 9/28 | Creating Hypotheses and Identifying Data | :man_teacher: <br/> :computer: <br/> [:date:](#identify-data) |
+| 10/3 | Cleaning Data (Variables) | :man_teacher: <br/> :computer: |
+| 10/5 | Cleaning Data (Merges and Structure) | :man_teacher: <br/> :computer: |
+| 10/12 | Describing Variables | :closed_book: <br/> :man_teacher: | :book: Chapter 3 | 
+| 10/17 | Describing Variables | :computer: |
+| 10/19 | Describing Relationships | :closed_book: <br/> :man_teacher: | :book: Chapter 4 |
+| 10/24 | Regression | :closed_book: <br/> :man_teacher: | :book: Chapter 13 |
+| 10/26 | Regression | :computer: | 
+| 10/31 | Treatment Effects | :closed_book: <br/> :man_teacher: <br/> [:date:](#summary-statistics) | :book: Chapter 10 |
+| 11/2 | Treatment Effects | :computer: |  |
+| 11/7 | Event Studies | :closed_book: <br/> :man_teacher: | :book: Chapter 17 |
+| 11/9 | Event Studies | :computer: |  |
+| 11/14 | Difference-in-Difference | :closed_book: <br/> :man_teacher: <br/> [:date:](#event-studies) | :book: Chapter 18 |
+| 11/16 | Difference-in-Difference | :computer: |  |
+| 11/21 | Organizing Results | :man_teacher: <br/> [:date:](#research-model) |  |
 | 11/28 | Writing Results from Analysis | :man_teacher: |  |
 | 11/30 | Organizing Presentation of Research | :man_teacher: |  |
 | 12/5 | Presentations of Final Papers | [:date:](#presentations) |  |

@@ -98,6 +98,6 @@ graph export "output\scatter4.png", replace
 Here, we can see that unlike with gender, the strength of the relationship between time alone and age is pretty similar across low- and high-income people. The slope is about the same - the line is just higher among low-income people, which tells us that low-income people spend more time alone in a typical day on average at each age.
 
 ### Children and Time Use Patterns
-
+In addition to simple aging, having a child can alter how we spend our time dramatically. Importantly, looking at households that have young children and those that don't gives us a chance to look at some graphs that show the relationship between a continuous variable (time) and a categorical variable (whether someone has a child less than two years old or not). 
 
 

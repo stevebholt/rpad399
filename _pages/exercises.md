@@ -22,6 +22,10 @@ On this page, you will find links to both in-class and out-of-class exercises we
 
 [Data For Exercise 3](https://www.dropbox.com/sh/h3qazylhjg2c426/AACnglvY6K9LV5YPm3JuJp4Na?dl=0){: .btn .btn--info}
 
+**Exercise 4** In this exercise, we walk through summary statistics, how to make a table in Stata, and how to run a simple regression in Stata. For this exercise, we will use the data from exercise 3. 
+{: .notice--success}
+
+[In-Class Exercise 4](https://stevebholt.github.io/rpad399/in-class-ex-4/){: .btn .btn--info}
 
 # Research Resources
 

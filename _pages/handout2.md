@@ -1,6 +1,6 @@
 ---
-title: "Exercise 3"
-permalink: /in-class-ex-3/
+title: "Exercise 4"
+permalink: /in-class-ex-4/
 toc: true
 mathjax: true
 ---

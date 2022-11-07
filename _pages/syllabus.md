@@ -124,7 +124,7 @@ Students will also be turning in a set of practice problems for practicing runni
 Students will turn in a set of practice problems for practing creating event study figures and organizing the data for event studies.--->
 
 #### Research Model
-Students will prepare a 2 page summary of the model they will use to test their hypotheses and answer their research questions. They will also turn in a set of practice problems for practicing estimating difference-in-difference models.
+Students will prepare a 2 page summary of the model they will use to test their hypotheses and answer their research questions and present their regression results. The assignment will also include 1 or 2 tables of regression output, clearly organized and interpreted correctly. 
 
 #### Presentations
 Students will prepare a 15 minute presentation outlining their research paper, data, results, and conclusions for the class and deliver it in the final class. They will also turn in their research paper, which will include 5 pages of presenting and interpreting results and 3 pages discussing and concluding the paper (in addition to the previous sections developed in previous assignments).

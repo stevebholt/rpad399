@@ -278,3 +278,29 @@ reg worktime i.yngchild
 In the output, we can see several things. First, there is indeed a positive difference in time spent working between people with and people without a young child. The coefficient on young child tells us that, relative to people without a young child, people with a young child present spend 21 minutes more working on average.
 
 BUT! Can we be sure that this difference is statistically meaningful? If the true underlying difference in the population was zero, would we be likely to see a difference like this in samples of 1,500 people just by random chance? If we look at the t-statistic and the p-value, we can see that we can't really be confident that this is not due to random change. The p-value is 0.28, which tells us that 28% of samples would have a difference of 21 minutes if they were drawn from a population where the true underlying difference was 0. That's not a small enough share for us to confidently reject the null hypothesis of no difference in work time. 
+
+Let's add a control variable to our model - gender. We know gender has an impact on labor market participation and time spent working on a typical day. Gender might also differentially relate to the likelihood of having a young child in the household. If it does both, at least some of the worktime that our model attributes to having a yound child may instead be related to gender.
+
+```
+reg worktime i.yngchild i.sex2
+
+      Source |       SS           df       MS      Number of obs   =     1,500
+-------------+----------------------------------   F(2, 1497)      =     18.23
+       Model |  2119792.68         2  1059896.34   Prob > F        =    0.0000
+    Residual |  87015746.7     1,497  58126.7513   R-squared       =    0.0238
+-------------+----------------------------------   Adj R-squared   =    0.0225
+       Total |  89135539.4     1,499  59463.3352   Root MSE        =    241.09
+
+------------------------------------------------------------------------------
+    worktime | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+  1.yngchild |   21.89154   19.84291     1.10   0.270    -17.03131    60.81439
+      1.sex2 |  -74.90825   12.60721    -5.94   0.000    -99.63792   -50.17859
+       _cons |   204.9042   9.831885    20.84   0.000     185.6185      224.19
+------------------------------------------------------------------------------
+```
+
+As we can see, the coefficient on young child did go up a little bit - consistent with the possibility that omitting gender from the models biased our estimates downword a bit. We can also that women work a lot less on a typical day then men. None of this, of course, gives us any insight on the relative effect of a young child on the work time of men versus women. For that, we need to estimate an interaction model.
+
+### Interaction Models
+Interaction models are a little tricky to interpret at first and people get tripped up on them all the time. 

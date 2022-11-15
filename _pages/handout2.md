@@ -303,4 +303,151 @@ reg worktime i.yngchild i.sex2
 As we can see, the coefficient on young child did go up a little bit - consistent with the possibility that omitting gender from the models biased our estimates downword a bit. We can also that women work a lot less on a typical day then men. None of this, of course, gives us any insight on the relative effect of a young child on the work time of men versus women. For that, we need to estimate an interaction model.
 
 ### Interaction Models
-Interaction models are a little tricky to interpret at first and people get tripped up on them all the time. 
+Interaction models are a little tricky to interpret at first and people get tripped up on them all the time. However, it's important to understand interaction terms because they lie at the heart of causal inference. Indeed, a difference-in-difference estimator is a particular application of an interaction regression and interactions estimate a difference in the differences of two groups. In our context, exploring the difference between men and women in the time spent working on a typical day when there's a young child present, we would be esitmating a regression that looks like this:
+
+$T_i = \alpha + \beta Child_i + \gamma Female_i + \delta Child_i \times Female_i \varepsilon_i$
+
+Here, think of $Child_i$ and $Female_i$ as switches that turn on when a respondent has a young child present or when a respondent is a woman (or both). The table below gives you a breakdown of how to interpret the coefficients in terms of $E(Y)$ or the average worktime we would expect on a typical day for the various combinations of these two variables.
+
+|      | Men      | Women     |
+| No young child | $\alpha$ | $\alpha + \gamma$ |
+| Young child | $\alpha + \beta$ | $\alpha + \beta + \gamma + \delta$ |
+
+Notice that the margin for women with a young child relative to women without a child and men with a young child is $\delta$. Put another way, the only parameter that is unique to women with a young child and doesn't appear for any other group is $\delta$ or the parameter that represents the interaction term in our regression model of worktime as a function of both gender and parenthood. This captures the difference between men and women in average time spent working on a typical day that is unrelated to gender and instead attributable to the gender-based difference in the impact of a young child. If $\delta$ were 0 on average, it would suggest that young children have a similar impact on work time among men and women and the primary difference in work time would be gender-based differences in labor markets (i.e., just $\gamma$, which is relevant to women regardless of having a young child). If, however, $\delta$ is negative, it would suggest that even after accounting for gender differences in the labor market, women have a stronger negative impact on their typical work day from the presence of young children in their household relative to men. More specifically, $\delta$ is capturing the difference in the difference between men and women with and without children or:
+
+$\delta = (\overline{Y}_{female,child} - \overline{Y}_{female,nochild}) - (\overline{Y}_{male,child} - \overline{Y}_{male,nochild})$
+
+Okay, enough abstract math, let's see some estimates. We'll start by looking at our regression estimates and then we will confirm our intuition by looking at average work time among men and women with and without young children. 
+
+```
+reg worktime i.yngchild i.sex2 i.yngchild##i.sex2
+
+      Source |       SS           df       MS      Number of obs   =     1,500
+-------------+----------------------------------   F(3, 1496)      =     14.61
+       Model |  2537728.67         3  845909.556   Prob > F        =    0.0000
+    Residual |  86597810.7     1,496  57886.2371   R-squared       =    0.0285
+-------------+----------------------------------   Adj R-squared   =    0.0265
+       Total |  89135539.4     1,499  59463.3352   Root MSE        =     240.6
+
+-------------------------------------------------------------------------------
+     worktime | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+--------------+----------------------------------------------------------------
+   1.yngchild |    84.8864   30.68792     2.77   0.006     24.69048    145.0823
+       1.sex2 |  -63.00848    13.3378    -4.72   0.000    -89.17126   -36.84571
+              |
+yngchild#sex2 |
+         1 1  |  -107.9355   40.16956    -2.69   0.007    -186.7301   -29.14085
+              |
+        _cons |   198.0266    10.1399    19.53   0.000     178.1367    217.9166
+-------------------------------------------------------------------------------
+```
+
+In our code, `i.yngchild` estimates $\beta$, `i.sex2` estimates $\gamma$, and `i.yngchild##i.sex2` estimates $\delta$. In the output, our constant (`_cons`) is an estimate of $\alpha$. Here, our results tell us young children have a stronger negative effect on women's work time than men's work time. Specifically, relative to a young child's effect on men's work time, a woman with a young child can expect to work 107 fewer minutes (or about an hour and 47 minutes less) on a typical day. That's a sizable impact on women's careers! Let's decompose this a bit into the constituent parts to see the intuition of our interpretation. First, let's look at the average work time of men with and without a child.
+
+Here's without:
+```
+mean worktime if yngchild == 0 & sex2 == 0
+
+Mean estimation                            Number of obs = 563
+
+--------------------------------------------------------------
+             |       Mean   Std. err.     [95% conf. interval]
+-------------+------------------------------------------------
+    worktime |   198.0266   10.98849      176.4431    219.6102
+--------------------------------------------------------------
+```
+Notice that this is exactly the same as our `_cons` estimate of $\alpha$ in our regression! Men without a young child work 198 minutes on a typical day.
+
+Here's men with a young child:
+```
+mean worktime if yngchild == 1 & sex2 == 0
+
+Mean estimation                             Number of obs = 69
+
+--------------------------------------------------------------
+             |       Mean   Std. err.     [95% conf. interval]
+-------------+------------------------------------------------
+    worktime |    282.913   34.10085      214.8659    350.9602
+--------------------------------------------------------------
+```
+Men with a young child work more on average than men without a young child, perhaps to cover the additional costs of parenthood and perhaps to offset the loss of income to childcare. Notice that in our table, men with a young child should work $\alpha + \beta$ minutes. If we add our estimate of $\alpha$ (198.0266) and our estimate of $\beta$ (84.8864), we would have 282.913! This helps underscore that $\beta$ is capturing the difference in average work time between men with and men without young children ($\overline{Y}_{male,child} - \overline{Y}_{male,nochild}$).
+
+Now let's do the same for women. Let's start with women without children, which should be equal to $\alpha + \gamma$. 
+
+```
+mean worktime if yngchild == 0 & sex2 == 1
+
+Mean estimation                            Number of obs = 771
+
+--------------------------------------------------------------
+             |       Mean   Std. err.     [95% conf. interval]
+-------------+------------------------------------------------
+    worktime |   135.0182   8.110284      119.0973     150.939
+--------------------------------------------------------------
+```
+Women without a young child work less than men without a young child, on average. Once again, we can see that the coefficient on women captures the difference between men without a child (198.0266 or the constant) and women without a young child (135.0182). Holding constant not having a young child, subtracting the average of men from the average of women leaves us with -63.00848 or the estimate of $\gamma$ in our regression!
+
+Alright, now the last piece - women with a young child:
+```mean worktime if yngchild == 1 & sex2 == 1
+
+Mean estimation                             Number of obs = 97
+
+--------------------------------------------------------------
+             |       Mean   Std. err.     [95% conf. interval]
+-------------+------------------------------------------------
+    worktime |   111.9691   20.43064      71.41457    152.5236
+--------------------------------------------------------------
+```
+Now we have all our ingredients for calculating the differential effect of a young child on women's work life relative to men. Intuitively, we would want to know if the difference in work time with and without a young child among men is larger or smaller than the difference in work time with and without a young child among women. For women, this difference is 111.9691 - 135.0182 or -23.0491. For men, the same difference (with child - no child) is 282.913 - 198.0266 or 84.8864. Already, we can kind of see the difference in the effects - among women, the difference is negative and among men the difference is positive. But let's put a number on this differential effect. We do this by taking the difference among women minus the difference among men. This is -23.0491 - 84.8864 which comes to... :drum: :drum: :drum: ...107.9355, exactly our estimate of $\delta$!
+
+This could mean many things of course, but it is consistent with what we observe in the labor market - women receive a pretty large professional penalty from parenthood and the wage gap increases, in part, due to women reducing their work time in response to a young child while men increase their work time. These differences are likely related to gendered cultural expectations about parenting and policy choices that don't provide the childcare infrastructure to mitigate these effects. 
+
+Let's add some controls to our model and see how income or household size might factor in to this equation. 
+
+```
+reg worktime i.yngchild i.sex2 i.yngchild##i.sex2 hhsize highincome
+
+      Source |       SS           df       MS      Number of obs   =     1,500
+-------------+----------------------------------   F(5, 1494)      =      9.26
+       Model |  2680658.66         5  536131.731   Prob > F        =    0.0000
+    Residual |  86454880.7     1,494  57868.0594   R-squared       =    0.0301
+-------------+----------------------------------   Adj R-squared   =    0.0268
+       Total |  89135539.4     1,499  59463.3352   Root MSE        =    240.56
+
+-------------------------------------------------------------------------------
+     worktime | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+--------------+----------------------------------------------------------------
+   1.yngchild |   71.87172   31.95901     2.25   0.025     9.182431     134.561
+       1.sex2 |  -62.88245   13.33625    -4.72   0.000    -89.04222   -36.72269
+              |
+yngchild#sex2 |
+         1 1  |  -106.4149   40.18516    -2.65   0.008    -185.2403   -27.58962
+              |
+       hhsize |    7.03456   4.570611     1.54   0.124    -1.930937    16.00006
+   highincome |   3.740078   28.76724     0.13   0.897    -52.68838    60.16854
+        _cons |   179.9465   15.35094    11.72   0.000     149.8348    210.0582
+-------------------------------------------------------------------------------
+```
+The answer is they don't change our estimated differential effect by much.
+
+Finally, let's re-estimate things to create a nice, clean table for use in a report. We will start by showing the impact of young children and gender on work time, then add the interaction between the two, and finally we will add some controls. Our full code will look like this:
+
+```
+reg worktime yngchild sex2
+est sto m1
+reg worktime yngchild sex2 yngchild#sex2
+est sto m2
+reg worktime yngchild sex2 yngchild#sex2 hhsize highincome
+est sto m3
+esttab m1 m2 m3 using "output\table2.rtf", cell(b(fmt(2)) se) ar2(2) obslast compress replace
+```
+
+And our final table should look like this:
+
+![Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg.png)
+
+We can delete the `0.` rows that are empty (nuissance output from Stata) and rename our rows to make them clearer and viola:
+
+![Clean Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg2.png)
+
+We have a nice table for our report!

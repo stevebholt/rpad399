@@ -305,7 +305,7 @@ As we can see, the coefficient on young child did go up a little bit - consisten
 ### Interaction Models
 Interaction models are a little tricky to interpret at first and people get tripped up on them all the time. However, it's important to understand interaction terms because they lie at the heart of causal inference. Indeed, a difference-in-difference estimator is a particular application of an interaction regression and interactions estimate a difference in the differences of two groups. In our context, exploring the difference between men and women in the time spent working on a typical day when there's a young child present, we would be esitmating a regression that looks like this:
 
-$T_i = \alpha + \beta Child_i + \gamma Female_i + \delta Child_i \times Female_i \varepsilon_i$
+$T_i = \alpha + \beta Child_i + \gamma Female_i + \delta Child_i \times Female_i + \varepsilon_i$
 
 Here, think of $Child_i$ and $Female_i$ as switches that turn on when a respondent has a young child present or when a respondent is a woman (or both). The table below gives you a breakdown of how to interpret the coefficients in terms of $E(Y)$ or the average worktime we would expect on a typical day for the various combinations of these two variables.
 

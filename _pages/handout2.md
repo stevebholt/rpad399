@@ -388,7 +388,9 @@ Mean estimation                            Number of obs = 771
 Women without a young child work less than men without a young child, on average. Once again, we can see that the coefficient on women captures the difference between men without a child (198.0266 or the constant) and women without a young child (135.0182). Holding constant not having a young child, subtracting the average of men from the average of women leaves us with -63.00848 or the estimate of $\gamma$ in our regression!
 
 Alright, now the last piece - women with a young child:
-```mean worktime if yngchild == 1 & sex2 == 1
+
+```
+mean worktime if yngchild == 1 & sex2 == 1
 
 Mean estimation                             Number of obs = 97
 
@@ -398,6 +400,7 @@ Mean estimation                             Number of obs = 97
     worktime |   111.9691   20.43064      71.41457    152.5236
 --------------------------------------------------------------
 ```
+
 Now we have all our ingredients for calculating the differential effect of a young child on women's work life relative to men. Intuitively, we would want to know if the difference in work time with and without a young child among men is larger or smaller than the difference in work time with and without a young child among women. For women, this difference is 111.9691 - 135.0182 or -23.0491. For men, the same difference (with child - no child) is 282.913 - 198.0266 or 84.8864. Already, we can kind of see the difference in the effects - among women, the difference is negative and among men the difference is positive. But let's put a number on this differential effect. We do this by taking the difference among women minus the difference among men. This is -23.0491 - 84.8864 which comes to... :drum: :drum: :drum: ...107.9355, exactly our estimate of $\delta$!
 
 This could mean many things of course, but it is consistent with what we observe in the labor market - women receive a pretty large professional penalty from parenthood and the wage gap increases, in part, due to women reducing their work time in response to a young child while men increase their work time. These differences are likely related to gendered cultural expectations about parenting and policy choices that don't provide the childcare infrastructure to mitigate these effects. 

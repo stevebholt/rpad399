@@ -370,7 +370,7 @@ Mean estimation                             Number of obs = 69
     worktime |    282.913   34.10085      214.8659    350.9602
 --------------------------------------------------------------
 ```
-Men with a young child work more on average than men without a young child, perhaps to cover the additional costs of parenthood and perhaps to offset the loss of income to childcare. Notice that in our table, men with a young child should work $\alpha + \beta$ minutes. If we add our estimate of $\alpha$ (198.0266) and our estimate of $\beta$ (84.8864), we would have 282.913! This helps underscore that $\beta$ is capturing the difference in average work time between men with and men without young children ($\overline{Y}_{male,child} - \overline{Y}_{male,nochild}$).
+Men with a young child work more on average than men without a young child, perhaps to cover the additional costs of parenthood and perhaps to offset the loss of income to childcare. Notice that in our table, men with a young child should work $\alpha + \beta$ minutes. If we add our estimate of $\alpha$ (198.0266) and our estimate of $\beta$ (84.8864), we would have 282.913! This helps underscore that $\beta$ is capturing the difference in average work time between men with and men without young children ($Y_{male,child} - Y_{male,nochild}$).
 
 Now let's do the same for women. Let's start with women without children, which should be equal to $\alpha + \gamma$. 
 

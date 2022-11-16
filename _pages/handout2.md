@@ -247,7 +247,7 @@ esttab all nochild child using "output\table1.rtf", cell(mean(fmt(2)) sd(fmt(2) 
 
 And it should create a nice, clean table that looks like this:
 
-![Word Table](http://stevebholt.github.io/rpad399/assets/images/table1.png)
+![Word Table](http://stevebholt.github.io/rpad399/assets/images/table1.PNG)
 
 ### Regressions in STATA
 Often, we want to be able to look more precisely that the relationship of interest to us than simply eyeballing bars in a graph or looking at summary statistics across groups. Moreover, we want to know whether the difference we are seeing is random noise or likely a "real" difference.
@@ -447,10 +447,10 @@ esttab m1 m2 m3 using "output\table2.rtf", cell(b(fmt(2)) se) ar2(2) obslast com
 
 And our final table should look like this:
 
-![Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg.png)
+![Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg.PNG)
 
 We can delete the `0.` rows that are empty (nuissance output from Stata) and rename our rows to make them clearer and viola:
 
-![Clean Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg2.png)
+![Clean Word Table](http://stevebholt.github.io/rpad399/assets/images/table2_reg2.PNG)
 
 We have a nice table for our report!

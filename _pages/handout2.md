@@ -442,7 +442,7 @@ reg worktime yngchild sex2 yngchild#sex2
 est sto m2
 reg worktime yngchild sex2 yngchild#sex2 hhsize highincome
 est sto m3
-esttab m1 m2 m3 using "output\table2.rtf", cell(b(fmt(2)) se) ar2(2) obslast compress replace
+esttab m1 m2 m3 using "output\table2.rtf", cell(b(fmt(2)) se(par)) ar2(2) obslast compress replace
 ```
 
 And our final table should look like this:
